@@ -25,4 +25,11 @@ public class Livro {
     private int anoPublicacao;
     private Editora editora;
 
+
+    public Livro(LivroDTO livroDTO) {
+        this.titulo = livroDTO.titulo();
+        this.autor = livroDTO.autor();
+        this.anoPublicacao = livroDTO.anoPublicacao();
+        this.editora = livroDTO.editora();
+    }
 }
