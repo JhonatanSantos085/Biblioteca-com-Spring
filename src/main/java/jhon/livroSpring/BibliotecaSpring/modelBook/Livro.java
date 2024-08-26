@@ -1,4 +1,4 @@
-package jhon.livroSpring.BibliotecaSpring.model;
+package jhon.livroSpring.BibliotecaSpring.modelBook;
 
 
 import jakarta.persistence.Entity;
